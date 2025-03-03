@@ -3,28 +3,6 @@
 このデータパックは、プレイヤーが死亡した際に一時的にスペクテイターモードとなり、一定時間後に指定のリスポーン地点にテレポートする機能を提供します。  
 さらに、ワールド内からコマンドを利用して、任意のチームの追加やリスポーン地点の変更が可能です。  
 ※ 初期状態では特定のチーム設定は行われていません。必要なチームは管理者側で後から追加してください。
-
----
-
-## ディレクトリ構造
-spectator_respawn/                 ← データパックのルートフォルダ
-├─ pack.mcmeta
-├─ README.md
-└─ data/
-   └─ spectator_respawn/
-      ├─ functions/
-      │  ├─ load.mcfunction
-      │  ├─ tick.mcfunction
-      │  ├─ on_death.mcfunction
-      │  ├─ timer.mcfunction
-      │  └─ dynamic_respawn.mcfunction
-      └─ tags/
-         └─ functions/
-            └─ tick.json
-
----
-
-
 ---
 
 ## インストール方法
