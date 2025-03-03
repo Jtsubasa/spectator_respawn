@@ -1,0 +1,1 @@
+execute as @a[scores={respawnTimer=1..},tag=spConfigured] run scoreboard players remove @s respawnTimer 1
